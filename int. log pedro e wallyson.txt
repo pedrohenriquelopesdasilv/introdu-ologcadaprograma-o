@@ -1,0 +1,94 @@
+Algoritmo "semnome"
+// Disciplina  :  Introdução a logica da programação
+// Professor   : Larissa ribeiro
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    :Wallyson/Pedro
+// Data atual  : 12/09/2024
+Var
+// Seção de Declarações das variáveis
+ computador, soma: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+contador <-1
+
+enquanto contador<=20 faca
+soma<- soma + contador
+contador<- contador + 1
+fimenquanto
+
+escreval(" o valor da soma é:" , soma)
+
+Fimalgoritmo
+
+
+..............................................................
+
+
+
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação]
+// Professor   : Larissa ribeiro
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    :Wallyson/Pedro
+// Data atual  : 12/09/2024
+Var
+// Seção de Declarações das variáveis
+ par, contador: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+contador<-1
+ 
+ enquanto contador<=20 faca
+   par<- contador %2
+
+   se par=0 entao
+   escreval( contador," é PAR")
+   fimse
+    contador<-contador+1
+   fimenquanto
+
+Fimalgoritmo
+
+
+
+
+...........................................
+
+
+
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação]
+// Professor   : Larissa ribeiro
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    :Wallyson/Pedro
+// Data atual  : 12/09/2024
+Var
+// Seção de Declarações das variáveis
+numero, fatorial: inteiro
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+  fatorial<-1
+escreval("digite o valor que deseja saber o fatorial")
+ leia (numero)
+ 
+ enquanto numero>=1 faca
+ fatorial<-fatorial*numero
+ numero<- numero-1
+  escreval(" o resultado é:" , fatorial)
+ fimenquanto
+ 
+
+Fimalgoritmo
+
+..................................................
+
+
+
+
+
+
