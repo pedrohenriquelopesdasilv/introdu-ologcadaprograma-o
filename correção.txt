@@ -1,0 +1,52 @@
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : ler idade de pessoas e calcular as medias
+// Autor(a)    : Pedro e Wallyson
+// Data atual  : 16/09/2024
+Var
+// Seção de Declarações das variáveis 
+    idade:inteiro
+    media:real
+    contador:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+  escreval("insira idade")
+  leia(idade)
+  enquanto idade>=0 faca
+  media<-media+idade
+  escreval ("insira idade")
+  leia (idade)
+  fimenquanto
+  escreval("foram lidas",contador,"idade")
+  media<-media/contador
+  escreval("a media da idade digitada e:",media)
+
+Fimalgoritmo
+
+..........................................................................
+
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : ler uma sequencia de numeros dos usuario e escreva o dobro
+//               de cada numero lido encerrar quando numero digitado for negativo
+// Autor(a)    : Pedro e Wallyson
+// Data atual  : 16/09/2024
+Var
+// Seção de Declarações das variáveis 
+numero,dobro:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+ escreval("insira um numero")
+ leia(numero)
+ enquanto numero>=0 faca
+          dobro<-numero*2
+          escreval("o valor do numero de ",numero,"é:",dobro)
+          escreval("insira um numero")
+          leia(numero)
+ fimenquanto
+
+Fimalgoritmo
